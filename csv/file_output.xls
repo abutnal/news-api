@@ -1,0 +1,8 @@
+Inspection	 Required Tasks	 Rules
+PP gas	 016G&060G	 016G AND 060G
+PP liquid	 016L,060L	 016L AND 060L
+Leakage Survey	 016G|060G&008	 016G OR 060G AND 008
+Current Protection Survey	 001|003|004|008	 001 OR 003 OR 004 OR 008
+Device Readings	 003&060G|008	 003 AND 060G OR 008
+Corrosion Survey	 006	 006
+Safety Inspections	 022A|(022B&022C)	 022A OR (022B AND 022C)

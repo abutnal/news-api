@@ -1,0 +1,51 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx node src/index.js -w src",
+    "dev": "env-cmd -f ./.env npx nodemon src/index.js on port 8015"
+  },
+  "keywords": [],
+  "author": "Aravind Utnal",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6",
+    "aws-sdk": "^2.742.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv-parse": "^4.16.3",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "fast-csv": "^4.3.6",
+    "generate-password": "^1.5.1",
+    "google-spreadsheet": "^3.3.0",
+    "jimp": "^0.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.27.0",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "node-xlsx": "^0.21.0",
+    "qrcode-reader": "^1.0.4",
+    "router": "^1.3.5",
+    "sqlstring": "^2.3.2",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.12",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
